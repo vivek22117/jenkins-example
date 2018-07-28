@@ -4,13 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.vivek.maven</groupId>
-    <artifactId>maven-project-example</artifactId>
-    <packaging>pom</packaging>
+    <groupId>com.vivek.second</groupId>
+    <artifactId>jenkins-ci</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>moduleone</module>
-    </modules>
+
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
@@ -25,6 +22,7 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
                     <source>1.8</source>
